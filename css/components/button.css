@@ -1,0 +1,25 @@
+.custom-list-section button {
+    padding: 10px 20px;
+    background-color: #0689CA;
+    color: #0689CA;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.custom-list-section button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: -50px;
+    padding: 10px 20px;
+    background-color: #0689CA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+@import url("components/button.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('images/12angrymen.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.featured-section1 {
+    padding: 30px 20px 0px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.featured-section2 {
+    padding: 0px 20px 0px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.featured-item {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 2);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px; 
+}
+
+.featured-item img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.featured-item h2 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.featured-item p {
+    font-size: 1.2em;
+}
+
+.favorites-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 55px;
+}
+
+.favorite {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.favorite img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.favorite-number {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.custom-list-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.custom-list-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
